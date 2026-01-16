@@ -15,7 +15,7 @@ export default function Login() {
     localStorage.setItem("identifier", identifier);
     navigate("/verify");
   };
-
+  
   return (
     <div>
       <h2>Login</h2>
