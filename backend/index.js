@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 const OTP_EXPIRY = 5 * 60 * 1000; // 5 Minutes
-const BLOCK_TIME = 10 * 60 * 1000; 
+const BLOCK_TIME = 10 * 60 * 1000; // 10 Minutes
 
 const otpStore = {};
 const blockedUsers = {};
