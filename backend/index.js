@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const OTP_EXPIRY = 5 * 60 * 1000; 
+const OTP_EXPIRY = 5 * 60 * 1000; // 5 Minutes
 const BLOCK_TIME = 10 * 60 * 1000; 
 
 const otpStore = {};
