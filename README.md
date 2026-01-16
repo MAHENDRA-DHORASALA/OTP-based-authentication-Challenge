@@ -41,4 +41,12 @@ A Full-stack web application that implements OTP-based authentication using Reac
     3. Maximum attempts: 3
     4. Block duration after failures: 10 minutes
 
+#Assumptions:
+
+    1. Users are created automatically.
+    2. OTP delivery is mocked using console output.
+    3. No database is used.
+    4. Tokens are simple mock tokens.
+    5. Rate limiting is not implemented.
+
 #This project provides a simple and clear implementation of an OTP-based login system.It demonstrates basic authentication flow and frontend–backend communication using APIs
