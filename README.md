@@ -18,6 +18,7 @@ A Full-stack web application that implements OTP-based authentication using Reac
     • Runs on port 5001
 
 #The application follows a client–server architecture:
+
     1. The frontend handles user interface and user actions.
     2. The backend handles OTP generation, validation, and session management.
     3. The frontend and backend communicate using HTTP APIs
